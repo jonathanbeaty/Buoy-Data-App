@@ -23,3 +23,6 @@ The above programming languages were used to build this site and make it operati
 • [Google's Geolocation API](https://developers.google.com/maps/documentation/geolocation/intro) returns the users current coordinates, if desired, and passes the results to other functions. </br>
 • [Google's Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) returns a searched locations coordinates and passes the results to other functions. </br>
 • [Google's Reverse Geocoding](https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse) accepts coordinates and returns the closest address to that location, which then passes this result to other functions. </br>
+
+
+Developed and Programmed by Jonathan Beaty 2018![alt text](https://c1.staticflickr.com/1/904/41897000462_f1efd4ffbc_m.jpg)
