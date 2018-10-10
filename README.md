@@ -1,7 +1,11 @@
 # Buoy-Data-App
 ![alt text](https://c2.staticflickr.com/2/1980/45164389582_eba5ca9bd5_c.jpg)
-Click 'Nearest Buoy' to find the closest buoy to your location. It will return the most recent reading from this buoy across 
-multiple data points. Search 'Further Buoy' to find a buoy near the location you searched. 
 
-<b>Technologies used:</b>
-jQuery, Javascript, HTML, CSS, chart.js, Stormglass api, Google maps api
+# Why Search for Buoy Data?
+Because I believe in the almighty ocean. She is a scary, powerful mother, but nonetheless she provides earth with life and tasty waves. Getting feedback from her is critical and that's exactly what this app acheives. So if you believe in fishing, surfing, sailing, boating, or you're just a straight up storm chaser, boy do I have the app for you. This baby will return the last known reading from either the closest buoy to your location (Click 'Nearest Buoy') or you can search the globe (Search 'Further Buoy' and enter a city) and it will return the closest buoy reading from that location plus some fancy charts and a map of that location. 
+
+# How to Utilize this Data? 
+Some of the data returned is pretty generic (but valuable) data, while some others might be tougher to read if you're not familiar with buoy readings. The biggest item to note is swell period. Swell period is the measurement of time between successive waves in seconds. If you multiply the swell period by 1.5 you will calculate the speed in knots of the wave group for deep water. Generally speaking, the longer swell period, the further away the swell is coming from, thus more powerful. The other is swell height, which gives an average of the largest 1/3rd of all waves. Something very much like the average set wave. It's measured from the trough (very lowest point) to peak (very highest point) of each wave. All the data returned can be used to establish trends and get live oceanic conditions from around the globe. 
+
+# What Technologies were used to build this App? 
+HTML, CSS, Javascript, jQuery, and Asynchronous HTTP (Ajax) Request were used to build this site and make it operational. The cool technologies used to actually make this useful were Stormglass' API, which collects hourly readings from buoy's all over the world from a number of different websites. Google maps API was used to return a map of the users selected location, which then allows interaction from the user. Google's geolocation and reverse geocode enables the program to return coordinates from the users current location or searched location, then passes the coordinates to another function to return the closest address to that location, to then pass to Google Maps to update the pindrop. 
