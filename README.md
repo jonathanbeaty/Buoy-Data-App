@@ -23,8 +23,3 @@ The above programming languages were used to build this site and make it operati
 • [Google's Geolocation API](https://developers.google.com/maps/documentation/geolocation/intro) returns the users current coordinates, if desired, and passes the results to other functions. </br>
 • [Google's Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) returns a searched locations coordinates and passes the results to other function. </br>
 • [Google's Reverse Geocoding](https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse) accepts coordinates and returns the closest address to that location, which then passes this result to other functions. </br>
-
-
-
-
-reverse geocode enables the program to return coordinates from the users current location or searched location. This passes the coordinates to another function to return the closest address to that location, to then pass to Google Maps to update the current pindrop. 
