@@ -16,4 +16,8 @@ All the data returned can be used to establish trends and get live oceanic condi
 • [jQuery](https://jquery.com/)</br>
 • [Asynchronous HTTP (Ajax) Request](http://api.jquery.com/jquery.ajax/)</br> 
 
-were used to build this site and make it operational. The cool technologies used to actually make this useful were Stormglass' API, which collects hourly readings from buoy's all over the world from a number of different websites. Google maps API was used to return a map of the users selected location, which then allows interaction from the user. Google's geolocation and reverse geocode enables the program to return coordinates from the users current location or searched location. This passes the coordinates to another function to return the closest address to that location, to then pass to Google Maps to update the current pindrop. 
+The above programming languages were used to build this site and make it operational. The cool technologies used to make this useful were:
+
+• [Stormglass' API](https://stormglass.io/) which collects hourly readings from buoy's all over the world </br>
+• [Google Maps API](https://developers.google.com/maps/documentation/) was used to return a map of the users selected location, which then allows interaction from the user </br> 
+Google's geolocation and reverse geocode enables the program to return coordinates from the users current location or searched location. This passes the coordinates to another function to return the closest address to that location, to then pass to Google Maps to update the current pindrop. 
