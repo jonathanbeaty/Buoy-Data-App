@@ -7,7 +7,7 @@ Because I believe in the almighty ocean. She is a scary, powerful mother, but no
 # How to Utilize this Data? 
 All the data returned can be used to establish trends and get live oceanic conditions from around the globe. If you fish, you might want to know if fishing in the surf is currently favorable or you might want to know what the current water temperature is closest to you. If you surf, you might want to know what the last 12 hours swell period is, to see if it's getting longer or shorter. Ocean data can be used for a wide variety of purposes for any ocean activity and this app pulls the data you want in a cleaner, quicker manner. 
 
-# [Here's a great video that explains how to put together all this data to get the most out of this app](https://youtu.be/Yl14Dggru0o)
+[Here's a great video that explains how to put together all this data to get the most out of this app](https://youtu.be/Yl14Dggru0o)
 
 # What Technologies were used to build this App? 
 HTML, CSS, Javascript, jQuery, and Asynchronous HTTP (Ajax) Request were used to build this site and make it operational. The cool technologies used to actually make this useful were Stormglass' API, which collects hourly readings from buoy's all over the world from a number of different websites. Google maps API was used to return a map of the users selected location, which then allows interaction from the user. Google's geolocation and reverse geocode enables the program to return coordinates from the users current location or searched location. This passes the coordinates to another function to return the closest address to that location, to then pass to Google Maps to update the current pindrop. 
