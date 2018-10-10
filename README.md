@@ -18,6 +18,13 @@ All the data returned can be used to establish trends and get live oceanic condi
 
 The above programming languages were used to build this site and make it operational. The cool technologies used to make this useful were:
 
-• [Stormglass' API](https://stormglass.io/) which collects hourly readings from buoy's all over the world </br>
-• [Google Maps API](https://developers.google.com/maps/documentation/) was used to return a map of the users selected location, which then allows interaction from the user </br> 
-Google's geolocation and reverse geocode enables the program to return coordinates from the users current location or searched location. This passes the coordinates to another function to return the closest address to that location, to then pass to Google Maps to update the current pindrop. 
+• [Stormglass' API](https://stormglass.io/) which collects hourly readings from buoy's all over the world. </br>
+• [Google Maps API](https://developers.google.com/maps/documentation/) was used to return a map of the users selected location, which then allows interaction from the user. </br> 
+• [Google's Geolocation API](https://developers.google.com/maps/documentation/geolocation/intro) returns the users current coordinates, if desired, and passes the results to other functions. </br>
+• [Google's Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) returns a searched locations coordinates and passes the results to other function. </br>
+• [Google's Reverse Geocoding](https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse) accepts coordinates and returns the closest address to that location, which then passes this result to other functions. </br>
+
+
+
+
+reverse geocode enables the program to return coordinates from the users current location or searched location. This passes the coordinates to another function to return the closest address to that location, to then pass to Google Maps to update the current pindrop. 
