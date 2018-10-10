@@ -10,10 +10,10 @@ All the data returned can be used to establish trends and get live oceanic condi
 <b>[Here's a great video that explains how to put together all this data to get the most out of this app](https://youtu.be/Yl14Dggru0o)</b>
 
 # What Technologies were used to build this App? 
-•[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)</br>
-•[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)</br>
-•[Javascript](https://www.javascript.com/)</br>
-•[jQuery](https://jquery.com/)</br>
-•[Asynchronous HTTP (Ajax) Request](http://api.jquery.com/jquery.ajax/)</br> 
+• [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)</br>
+• [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)</br>
+• [Javascript](https://www.javascript.com/)</br>
+• [jQuery](https://jquery.com/)</br>
+• [Asynchronous HTTP (Ajax) Request](http://api.jquery.com/jquery.ajax/)</br> 
 
 were used to build this site and make it operational. The cool technologies used to actually make this useful were Stormglass' API, which collects hourly readings from buoy's all over the world from a number of different websites. Google maps API was used to return a map of the users selected location, which then allows interaction from the user. Google's geolocation and reverse geocode enables the program to return coordinates from the users current location or searched location. This passes the coordinates to another function to return the closest address to that location, to then pass to Google Maps to update the current pindrop. 
