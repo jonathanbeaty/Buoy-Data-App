@@ -10,7 +10,7 @@ All the data returned can be used to establish trends and get live oceanic condi
 <b>[Here's a great video that explains how to put together all this data to get the most out of this app](https://youtu.be/Yl14Dggru0o)</b>
 
 # What Technologies were used to build this App? 
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)</br>
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [Javascript](https://www.javascript.com/)
 [jQuery](https://jquery.com/)
