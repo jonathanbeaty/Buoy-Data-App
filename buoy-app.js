@@ -49,21 +49,19 @@ function getDataFromApi(lat, lng) {
                     x++;
                 }
 
-                let swellPeriodDataArr = swellPeriodDataArrPre.reverse();
-                let xAxisLabels = xAxisLabelsPre.reverse();
                 Chart.defaults.global.defaultFontColor = 'black';
                 Chart.defaults.global.defaultFontSize = 12;
 
                 let myLineChart = {
                     type: 'line',
                     data: {
-                        labels: xAxisLabels,
+                        labels: xAxisLabelsPre,
                         datasets: [{
                             label: 'Swell Period Last 48 hours (Seconds)',
                             fill: true,
                             backgroundColor: 'rgba(255, 99, 132, 0.25)',
                             borderColor: 'black',
-                            data: swellPeriodDataArr,
+                            data: swellPeriodDataArrPre,
                             borderWidth: 1
                         }]
                     },
@@ -92,7 +90,7 @@ function getDataFromApi(lat, lng) {
                 let myLineChartWave = {
                     type: 'line',
                     data: {
-                        labels: xAxisLabels,
+                        labels: xAxisLabelsPre,
                         datasets: [{
                             label: 'Wave Height Last 48 hours (ft)',
                             fill: true,
