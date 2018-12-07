@@ -57,7 +57,7 @@ function getDataFromApi(lat, lng) {
                     data: {
                         labels: xAxisLabelsPre,
                         datasets: [{
-                            label: 'Swell Period Last 48 hours (Seconds)',
+                            label: 'Swell Period Next 48 hours (Seconds)',
                             fill: true,
                             backgroundColor: 'rgba(255, 99, 132, 0.25)',
                             borderColor: 'black',
@@ -85,18 +85,16 @@ function getDataFromApi(lat, lng) {
                     waveHeightDataArrPre.push(data.hours[i].waveHeight[1].value * 3.28084);
                 }
 
-                let waveHeightDataArr = waveHeightDataArrPre.reverse();
-
                 let myLineChartWave = {
                     type: 'line',
                     data: {
                         labels: xAxisLabelsPre,
                         datasets: [{
-                            label: 'Wave Height Last 48 hours (ft)',
+                            label: 'Wave Height Next 48 hours (ft)',
                             fill: true,
                             backgroundColor: 'rgba(255, 99, 132, 0.25)',
                             borderColor: 'black',
-                            data: waveHeightDataArr,
+                            data: waveHeightDataArrPre,
                             borderWidth: 1
                         }],
                     },
